@@ -1,65 +1,39 @@
 import ProjectItem from "./ProjectItem";
 
-import NftProject from "../../../public/images/AZUKI.png"
-import Etoy from "../../../public/images/etoy.png"
-import Yukitots from "../../../public/images/Yukitots.png"
-import Milo from "../../../public/images/Pillow-Milo.png"
+import epapanikolaou from "../../../public/images/epapanikolaou-website.jpg"
+import karasakalidis from "../../../public/images/karasakalidis-website.jpg"
 
 
 
 const Projects = () => {
     return(
-        <div className="w-full rounded-t-md h-max px-3 py-5 flex flex-col justify-between gap-6">
-            <h2 className="font-bold text-peachyblue text-2xl uppercase">Projects</h2>
+        <div className="bg-off-white w-full rounded-md h-max px-3 py-5 mt-5 flex flex-col justify-between gap-6">
+            <h2 className="font-firaSans font-bold text-dark-blue text-lg uppercase">Projects</h2>
 
             <ProjectItem 
-                image = {NftProject}
+                image = {epapanikolaou}
 
-                title="NFT Project" 
+                title="epapanikolaou" 
             
                 paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Mauris scelerisque mi malesuada rhoncus vulputate. 
                         Quisque neque arcu, iaculis id gravida eu, vulputate et augue."
                 
-                link="https://peachlabs.io"
+                link="https://epapanikolaou.gr"
             />
 
             <ProjectItem 
-                image = {Yukitots}
+                image = {karasakalidis}
 
-                title="Yukitots" 
+                title="Karasakalidis LTD" 
             
                 paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Mauris scelerisque mi malesuada rhoncus vulputate. 
                         Quisque neque arcu, iaculis id gravida eu, vulputate et augue."
                 
-                link="https://peachlabs.io"
+                link="https://karasakalidisltd.com"
             />
 
-            <ProjectItem 
-                image = {Milo}
-
-                title="Pillow & Milo" 
-            
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Mauris scelerisque mi malesuada rhoncus vulputate. 
-                        Quisque neque arcu, iaculis id gravida eu, vulputate et augue."
-                
-                link="https://peachlabs.io"
-
-            />
-
-            <ProjectItem 
-                image = {Etoy}
-
-                title="Etoy" 
-            
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Mauris scelerisque mi malesuada rhoncus vulputate. 
-                        Quisque neque arcu, iaculis id gravida eu, vulputate et augue."
-                
-                link="https://etoy.gr"
-            />
         </div>
         
     );

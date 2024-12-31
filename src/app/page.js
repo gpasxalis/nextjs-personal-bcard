@@ -10,6 +10,7 @@ export default function Home() {
       <div className="container max-w-lg lg:w-96 font-geistSans flex items-start flex-col rounded-md">
         <Hero/>
         <InfoCard />
+        <Projects />
         <Footer />
       </div>
     </div>
