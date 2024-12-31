@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.bg-img-cover{
+  background-image: url('/images/cover_me.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
