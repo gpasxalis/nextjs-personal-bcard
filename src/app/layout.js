@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 const firaSans = Fira_Sans({
   variable: "--font-fira-sans",
   weight: ["100","200","300","400", "500", "600", "700", "800", "900"],
+  subsets: ["greek", "latin"],
 })
 
 export const metadata = {
