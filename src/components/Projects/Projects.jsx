@@ -15,9 +15,8 @@ const Projects = () => {
 
                 title="epapanikolaou"
             
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Mauris scelerisque mi malesuada rhoncus vulputate. 
-                        Quisque neque arcu, iaculis id gravida eu, vulputate et augue."
+                paragraph="Σκοπός του project ήταν η παρουσίαση των υπηρεσιών που προσφέρει καθώς 
+                και η δυνατότητα ο χρήστης να μπορεί να κλείσει ραντεβού online"
                 
                 link="https://epapanikolaou.gr"
             />
@@ -27,9 +26,9 @@ const Projects = () => {
 
                 title="Karasakalidis LTD" 
             
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Mauris scelerisque mi malesuada rhoncus vulputate. 
-                        Quisque neque arcu, iaculis id gravida eu, vulputate et augue."
+                paragraph="Σκοπός του project ήταν η παρουσίαση των υπηρεσιών που προσφέρει η εταιρεία, 
+                η δημιουργία του ηλεκτρονικού της καταλόγου για την παρουσίαση των προϊόντων που εμπορεύεται καθώς 
+                και η μετάφραση της ιστοσελίδας της σε επιπλέον 2 γλώσσες."
                 
                 link="https://karasakalidisltd.com"
             />
