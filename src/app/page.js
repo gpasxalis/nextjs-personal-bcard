@@ -9,9 +9,9 @@ export default function Home() {
   
   return (
     <>
-      <div className="flex justify-center bg-dark-blue h-max px-2 rounded-md">
+      <Share />
+      <div className="flex justify-center bg-dark-blue h-max px-2">
         <div className="container max-w-lg lg:w-96 font-geistSans flex items-start flex-col rounded-md">
-          <Share />
           <Hero/>
           <InfoCard />
           <Projects />
