@@ -25,7 +25,7 @@ const Share = () => {
             <QrShare isOpen={open} onClose={handleClose} />
             <div className="w-full flex justify-end bg-dark-blue" >
                 <Link className="py-3 px-4 text-off-white text-lg" href="/vcard.vcf" target="_blank" rel="noreferrer" download>
-                    <RiContactsBook3Line fontSize={16} />
+                    <RiContactsBook3Line fontSize={19} />
                 </Link>
                 <button className="py-3 px-4 text-off-white text-lg" onClick={handleOpen}>
                     <BsQrCode fontSize={16} />
