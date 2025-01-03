@@ -1,27 +1,24 @@
 'use client'
 
-const data = {
+import { RWebShare } from "react-web-share";
+
+const shareData = {
     title: "Test Title",
     text: "Test text",
-    url: "https://dalution.gr"
+    url: "https://dalution.gr",
 }
-
-const handleShare = async () => {
-    try {
-        await navigator.share({data});
-        console.log("Data was shared successfully");
-    }  catch(e) {
-        console.error("Navigator Error:", e.message );
-    }
-}
-
 
 const ShareButton = () => {
     return(
-        <button onClick={handleShare} className="py-1 px-2 bg-dark-blue text-off-white" >
-            Share
-        </button>
+
+        <RWebShare data={shareData} >
+            <button className="py-1 px-2 bg-dark-blue text-off-white" allow="web-share">
+                Share
+            </button>
+        </RWebShare>
+        
     );
 };
+
 
 export default ShareButton;
