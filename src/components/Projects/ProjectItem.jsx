@@ -10,7 +10,7 @@ const ProjectItem = (props) => {
         <div className="bg-dark-blue rounded-xl">
             <Image alt={props.title} src={props.image} sizes="100%" className="rounded-t-xl" />
             <div className="flex flex-col px-3 py-3.5 gap-3.5">
-                <h3 className="font-extrabold text-yellow text-xl uppercase">
+                <h3 className="font-extrabold text-yellow text-lg uppercase">
                     {props.title}
                 </h3>
                 <p className="text-peachybeige">
