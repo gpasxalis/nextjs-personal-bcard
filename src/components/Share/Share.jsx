@@ -16,7 +16,6 @@ const Share = () => {
         setOpen(false);
     };
 
-
     return(
         <>
         
