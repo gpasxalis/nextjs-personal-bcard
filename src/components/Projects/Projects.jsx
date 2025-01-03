@@ -16,7 +16,7 @@ const Projects = () => {
                 title="epapanikolaou"
             
                 paragraph="Σκοπός του project ήταν η παρουσίαση των υπηρεσιών που προσφέρει καθώς 
-                και η δυνατότητα ο χρήστης να μπορεί να κλείσει ραντεβού online"
+                και η δυνατότητα ο χρήστης να μπορεί να κλείσει ραντεβού online."
                 
                 link="https://epapanikolaou.gr"
             />
