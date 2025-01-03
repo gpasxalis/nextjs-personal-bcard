@@ -13,7 +13,7 @@ const ShareButton = () => {
     return(
 
         <RWebShare data={shareData} >
-            <button className="py-3 px-2 text-off-white" allow="web-share">
+            <button className="py-3 px-4 text-off-white">
                 <BsShare />
             </button>
         </RWebShare>
