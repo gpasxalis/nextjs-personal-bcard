@@ -1,6 +1,7 @@
 'use client'
 
 import { RWebShare } from "react-web-share";
+import { BsShare } from "react-icons/bs";
 
 const shareData = {
     title: "Test Title",
@@ -12,8 +13,8 @@ const ShareButton = () => {
     return(
 
         <RWebShare data={shareData} >
-            <button className="py-1 px-2 bg-dark-blue text-off-white" allow="web-share">
-                Share
+            <button className="py-3 px-2 text-off-white" allow="web-share">
+                <BsShare />
             </button>
         </RWebShare>
         

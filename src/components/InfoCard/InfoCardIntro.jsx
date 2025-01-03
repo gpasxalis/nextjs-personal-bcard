@@ -1,5 +1,3 @@
-import ShareButton from "../Misc/ShareButton";
-
 const InfoCardIntro = (props) => {
     return(
         <>
@@ -19,8 +17,6 @@ const InfoCardIntro = (props) => {
                 <p className="font-firaSans font-normal text-dark-gray text-base">📍 Greece, Alexandroupolis (AXD)</p>
 
             </div>
-
-            <ShareButton />
 
         </>
     );
