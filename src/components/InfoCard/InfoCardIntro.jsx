@@ -1,3 +1,5 @@
+import ActionButtons from "./ActionButtons";
+
 const InfoCardIntro = (props) => {
     return(
         <>
@@ -5,6 +7,8 @@ const InfoCardIntro = (props) => {
             <h1 className="font-extrabold text-dark-blue text-xl text-center">{props.name}</h1>
 
             <h2 className="font-medium text-dark-gray text-base text-center -mt-4">{props.subtitle}</h2>
+
+            <ActionButtons />
 
             <div className="flex flex-col w-full gap-2 mt-2" >
                 

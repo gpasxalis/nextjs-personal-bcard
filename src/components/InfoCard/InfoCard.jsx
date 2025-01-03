@@ -1,6 +1,5 @@
 import InfoCardItem from "./InfoCardItem";
 import InfoCardIntro from "./InfoCardIntro";
-
 const InfoCard = () => {
     return(
         <div className="flex flex-col w-full rounded-md h-max px-3 pt-16 pb-10 justify-between gap-5 bg-off-white -mt-14">
