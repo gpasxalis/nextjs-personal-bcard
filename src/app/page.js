@@ -3,7 +3,7 @@ import InfoCard from "@/components/InfoCard/InfoCard";
 import Projects from "@/components/Projects/Projects";
 import Footer from "@/components/Footer/Footer";
 import Share from "@/components/Share/Share";
-import QrShare from "@/components/Misc/QrShare";
+
 
 export default function Home() {
   

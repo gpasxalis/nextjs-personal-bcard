@@ -1,9 +1,11 @@
 "use client";
 
+
 import { useState } from "react";
-import ShareButton from "../Misc/ShareButton";
+import ShareButton from "./ShareButton";
 import { BsQrCode } from "react-icons/bs";
-import QrShare from "../Misc/QrShare";
+import QrShare from "./QrShare";
+
 
 const Share = () => {
     const [open, setOpen] = useState(false);
