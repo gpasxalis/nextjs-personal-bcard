@@ -1,3 +1,5 @@
+import ShareButton from "../Misc/ShareButton";
+
 const InfoCardIntro = (props) => {
     return(
         <>
@@ -18,7 +20,7 @@ const InfoCardIntro = (props) => {
 
             </div>
 
-            
+            <ShareButton />
 
         </>
     );

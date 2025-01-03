@@ -13,7 +13,7 @@ const Projects = () => {
             <ProjectItem 
                 image = {epapanikolaou}
 
-                title="epapanikolaou" 
+                title="epapanikolaou"
             
                 paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Mauris scelerisque mi malesuada rhoncus vulputate. 
