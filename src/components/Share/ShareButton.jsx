@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 
 
 const ShareButton = () => {
-    const router = usePathname();;
+    const router = usePathname();
 
     const shareData = {
         title: "Paschalis Grammenos | Digital Business Card",
